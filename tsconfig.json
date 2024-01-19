@@ -5,7 +5,7 @@
     "strict": true,
     "noEmit": false,
     "target": "ES5",
-    "module": "Node16"
+    "module": "UMD"
   },
   "include": ["**/*.ts"]
 }
