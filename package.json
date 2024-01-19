@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "ts-node --files ./src/index.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "nanoid": "^5.0.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
