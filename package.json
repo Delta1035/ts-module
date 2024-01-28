@@ -1,11 +1,15 @@
 {
   "scripts": {
     "dev": "ts-node --files ./src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "vitest"
   },
   "dependencies": {
     "nanoid": "^5.0.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "vitest": "^1.2.2"
   }
 }
